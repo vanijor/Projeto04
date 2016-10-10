@@ -1,7 +1,8 @@
 <%-- 
     Document   : contatos
     Created on : 05/10/2016, 15:47:44
-    Author     : aluno
+    Updated on : 10/10/2016, 20:44:33
+    Author     : Aluno
 --%>
 
 <%@page import="br.com.fatecpg.crud.Pessoa"%>
@@ -55,8 +56,7 @@
         </nav>
         <div id="main" class="container-fluid">
             <h3 class="page-header">Editar Cliente</h3>
-            <form action="#">
-                
+            <form>
                 <div class="row" >
                     <div class="form-group col-md-4">
                         <label for="campo1">Nome</label>
@@ -90,7 +90,7 @@
                 <hr />
                 <div id="actions" class="row">
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary" name='incluir' value='incluir'>Salvar</button>
+                        <button type="submit" class="btn btn-primary" name='incluir'>Salvar</button>
                         <a href="index.jsp" class="btn btn-default">Voltar</a>
                     </div>
                 </div>
